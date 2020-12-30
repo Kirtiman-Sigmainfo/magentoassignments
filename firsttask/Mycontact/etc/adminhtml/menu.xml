@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+    <menu>
+
+        <update id="firsttask_Mycontact::firsttaskextensions" title="CustomGrid" module="Magento_Backend" sortOrder="300" resource="firsttask_Mycontact::firsttaskextensions"/>
+
+
+        <add id="firsttask_Mycontact::mycontact" title="MyGrid" module="firsttask_Mycontact" sortOrder="50" parent="firsttask_Mycontact::firsttaskextensions" action="mycontact/index/index" resource="firsttask_Mycontact::mycontact"/>
+
+    </menu>
+
+</config>
